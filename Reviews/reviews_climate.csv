@@ -1,15 +1,15 @@
-review,category,topic
-"This place is a haven for vegans! The menu isn't just plant-based; it's a celebration of sustainable and delicious choices. Kudos for championing climate-friendly dining!",Positive,Climate
-"Major love for this spot! Not just for the tasty bites but for their commitment to being energy-efficient. Renewable vibes and low-energy brilliance make dining here a green delight!",Positive,Climate
+review,label,category
+This place is a haven for vegans! The menu isn't just plant-based; it's a celebration of sustainable and delicious choices. Kudos for championing climate-friendly dining!,Positive,Climate
+Major love for this spot! Not just for the tasty bites but for their commitment to being energy-efficient. Renewable vibes and low-energy brilliance make dining here a green delight!,Positive,Climate
 "Big props to this restaurant for embracing the local scene. The ingredients are not just fresh; they're sourced from nearby, reducing their carbon footprint. Climate warriors, for sure!",Positive,Climate
 "This joint isn't just about meals; it's about a renewable revolution. From low-energy lighting to eco-friendly practices, they're setting a high standard for climate-conscious dining. Cheers to them!",Positive,Climate
 "Dining here is like joining a movement. A movement for vegan delights, local love, and low-energy brilliance. Every bite is a commitment to a greener planet!",Positive,Climate
-"Shoutout to this spot for being climate-savvy. They're not just offering compostable options; they're reducing waste and making eco-friendly choices. Love it!",Positive,Climate
+Shoutout to this spot for being climate-savvy. They're not just offering compostable options; they're reducing waste and making eco-friendly choices. Love it!,Positive,Climate
 "This place dives deep into climate consciousness. From vegan options to local sourcing, it's all about reducing the carbon footprint. A meal here is a step towards a greener future!",Positive,Climate
 "This joint isn't just about good eats; it's about good for the planet. Climate-friendly to the core – vegan choices, local sourcing, and low-energy brilliance. You're supporting more than just a meal here.",Positive,Climate
 "Cheers to this spot for being climate-conscious. Vegan delights, local love, and renewable brilliance – they're doing their part in making dining a climate-positive experience.",Positive,Climate
 "Dining here isn't just a meal; it's a stand for climate consciousness. Vegan, local, and low-energy – a solid choice for those who care about more than just the menu.",Positive,Climate
-"Absolutely loving the green vibes here! It's not just about the mouthwatering plant-based options; they're leading the way in sustainable dining. Kudos for a menu that's a true eco-warrior!",Positive,Climate
+Absolutely loving the green vibes here! It's not just about the mouthwatering plant-based options; they're leading the way in sustainable dining. Kudos for a menu that's a true eco-warrior!,Positive,Climate
 "Major love for the culinary brilliance at this spot! Beyond delicious bites, they've fully embraced energy efficiency and renewable practices. Dining here is like indulging in a green dream!",Positive,Climate
 "Big applause for the restaurant's commitment to the local community. Fresh ingredients aren't just a choice; they're a statement, reducing their carbon footprint. A real force for climate-conscious dining!",Positive,Climate
 "This establishment isn't just a place to eat; it's a sanctuary for a sustainable revolution. From low-energy brilliance to eco-friendly habits, they're setting the bar for climate-conscious dining. A toast to them!",Positive,Climate
@@ -20,22 +20,22 @@ review,category,topic
 "Raise a glass to this spot for its climate-conscious ethos. Vegan delights, local ingredients, and renewable brilliance – they're playing a pivotal role in making dining a climate-positive experience.",Positive,Climate
 "In this culinary haven, it's not just about the food; it's a stand for climate consciousness. Every dish, whether vegan, locally sourced, or low-energy, is a testament to a commitment beyond the menu.",Positive,Climate
 "Expected a climate-conscious haven, but the vegan options are as scarce as a snowflake in summer. Disappointing for those seeking more sustainable choices.",Negative,Climate
-"Climate woes are casting a shadow here. Dubious practices and a lack of genuine effort to be low-energy. Time for a real commitment to green living.",Negative,Climate
-"The 'local' charm fades when you realize the commitment to sustainable sourcing is more like a fleeting breeze. The talk doesn't match the walk – not impressed.",Negative,Climate
+Climate woes are casting a shadow here. Dubious practices and a lack of genuine effort to be low-energy. Time for a real commitment to green living.,Negative,Climate
+The 'local' charm fades when you realize the commitment to sustainable sourcing is more like a fleeting breeze. The talk doesn't match the walk – not impressed.,Negative,Climate
 "Not sold on the 'low-energy' image they're pushing. It's a bit questionable. No real dedication to renewable practices, and that's cause for concern.",Negative,Climate
 "Climate issues overshadow the dining experience. A lack of genuine commitment to vegan options feels like they're stuck in the old carbon-heavy routine. A bit troubling, honestly.",Negative,Climate
-"A letdown on the climate-conscious front. The promises don't align with the actions. Lack of transparency and commitment makes it feel less green than it appears.",Negative,Climate
-"Skeptical about their 'local' practices. Seems like they're riding the climate-conscious trend without putting in the effort to genuinely support nearby producers. A bit lacking in substance.",Negative,Climate
-"'Low-energy' claims seem more like an environmental drain. No clear moves towards authentic renewable practices – just an image they're projecting. A bit disappointing.",Negative,Climate
+A letdown on the climate-conscious front. The promises don't align with the actions. Lack of transparency and commitment makes it feel less green than it appears.,Negative,Climate
+Skeptical about their 'local' practices. Seems like they're riding the climate-conscious trend without putting in the effort to genuinely support nearby producers. A bit lacking in substance.,Negative,Climate
+'Low-energy' claims seem more like an environmental drain. No clear moves towards authentic renewable practices – just an image they're projecting. A bit disappointing.,Negative,Climate
 "For those who prioritize climate consciousness, the minimal effort in actual practices is a letdown. It doesn't instill confidence for eco-conscious patrons.",Negative,Climate
 "Discovering their 'sustainable' stance was just marketing leaves a bitter taste. Genuine commitment to climate consciousness is missing, and it's like they're letting the green truth fade away.",Negative,Climate
 "Thought this place was a green oasis, but the lack of vegan options is like serving up a drought. Leaves eco-conscious diners parched for more sustainable choices.",Negative,Climate
-"Climate complications are raining on the parade here. Uncertain practices and a noticeable absence of genuine effort to be low-energy. Time for a serious commitment to eco-friendliness.",Negative,Climate
-"The 'local' allure fades when you notice the sustainable sourcing commitment is as fleeting as a gust of wind. The rhetoric doesn't match the reality – not convincing.",Negative,Climate
+Climate complications are raining on the parade here. Uncertain practices and a noticeable absence of genuine effort to be low-energy. Time for a serious commitment to eco-friendliness.,Negative,Climate
+The 'local' allure fades when you notice the sustainable sourcing commitment is as fleeting as a gust of wind. The rhetoric doesn't match the reality – not convincing.,Negative,Climate
 "Not convinced by the 'low-energy' façade they're putting on. It's raising eyebrows. No substantial dedication to renewable practices, and that's a source of concern.",Negative,Climate
 "Climate concerns are eclipsing the dining experience. A lack of authentic commitment to vegan options feels like they're stuck in an outdated, carbon-heavy routine. A bit troubling, no doubt.",Negative,Climate
 "A letdown on the climate-conscious front. The promises sound good, but the actions fall short. Lack of transparency and commitment makes it feel less green than it promises.",Negative,Climate
-"Skeptical about their 'local' practices. Seems like they're surfing the climate-conscious wave without truly supporting nearby producers. A bit lacking in genuine substance.",Negative,Climate
-"The 'low-energy' claims seem more like an energy drain. No evident steps towards authentic renewable practices – just projecting an image without tangible efforts. A bit disappointing.",Negative,Climate
+Skeptical about their 'local' practices. Seems like they're surfing the climate-conscious wave without truly supporting nearby producers. A bit lacking in genuine substance.,Negative,Climate
+The 'low-energy' claims seem more like an energy drain. No evident steps towards authentic renewable practices – just projecting an image without tangible efforts. A bit disappointing.,Negative,Climate
 "For those prioritizing climate consciousness, the minimal effort in actual practices is underwhelming. It doesn't inspire confidence for patrons seeking an eco-friendly dining experience.",Negative,Climate
 "Realizing their 'sustainable' branding was more sizzle than substance leaves a sour taste. Genuine commitment to climate consciousness is absent, and it feels like they're letting the green facade crumble.",Negative,Climate

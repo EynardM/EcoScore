@@ -1,41 +1,41 @@
-review,category,topic
+review,label,category
 "This restaurant stands out for its commitment to diversity and inclusion. A diverse staff ensures a welcoming environment, making every visit enjoyable.",Positive,Governance
-"Impressed by the responsible governance here. Ethical business practices and a commitment to fair wages make dining at this establishment a conscious choice.",Positive,Governance
-"Kudos to this restaurant for embracing diversity in its leadership. The commitment to responsible governance is reflected in every aspect of the dining experience.",Positive,Governance
+Impressed by the responsible governance here. Ethical business practices and a commitment to fair wages make dining at this establishment a conscious choice.,Positive,Governance
+Kudos to this restaurant for embracing diversity in its leadership. The commitment to responsible governance is reflected in every aspect of the dining experience.,Positive,Governance
 "Finally, a place with responsible governance! From transparent pricing to fair treatment of employees, this restaurant sets a high standard for ethical business.",Positive,Governance
-"Dining here is not just about delicious food but also supporting responsible governance. Fair labor practices and an inclusive atmosphere make this spot exceptional.",Positive,Governance
-"A restaurant with a heart – commendable governance practices ensure fair treatment for staff and a positive impact on the community. Well done!",Positive,Governance
-"Thumbs up for the responsible governance at this establishment. Transparency in sourcing and ethical business practices make it a favorite for conscious diners.",Positive,Governance
+Dining here is not just about delicious food but also supporting responsible governance. Fair labor practices and an inclusive atmosphere make this spot exceptional.,Positive,Governance
+A restaurant with a heart – commendable governance practices ensure fair treatment for staff and a positive impact on the community. Well done!,Positive,Governance
+Thumbs up for the responsible governance at this establishment. Transparency in sourcing and ethical business practices make it a favorite for conscious diners.,Positive,Governance
 "This restaurant goes beyond great meals – it values diversity in its team and practices responsible governance, creating an atmosphere of fairness and respect.",Positive,Governance
 "Responsible governance in action! This place ensures fair wages, equal opportunities, and a commitment to community well-being, making dining here truly meaningful.",Positive,Governance
 "Dining here is a vote for responsible governance. From eco-friendly operations to fair employment practices, this restaurant is a model of ethical dining.",Positive,Governance
-"This joint gets a gold star for being kick-ass inclusive. The mix of people running the show brings an awesome vibe to the place. Thumbs up!",Positive,Governance
+This joint gets a gold star for being kick-ass inclusive. The mix of people running the show brings an awesome vibe to the place. Thumbs up!,Positive,Governance
 "Hats off to this restaurant for not just serving up tasty eats but for being straight-up responsible. Fair wages, ethical moves – they're doing it right.",Positive,Governance
-"Big shoutout to this spot for keeping it real in the leadership game. Diverse AF and making sure everyone feels welcome. You rock!",Positive,Governance
+Big shoutout to this spot for keeping it real in the leadership game. Diverse AF and making sure everyone feels welcome. You rock!,Positive,Governance
 "This place ain't just about stuffing your face – it's about good governance. Clear prices, fair treatment – they've got their act together. Solid choice!",Positive,Governance
 "When you dine here, you're not just a customer – you're supporting a place that's got its governance game on point. Fair play to the whole team!",Positive,Governance
-"Major props to this restaurant – not just for the grub but for how they treat their crew. Responsible governance makes the whole experience even better.",Positive,Governance
+Major props to this restaurant – not just for the grub but for how they treat their crew. Responsible governance makes the whole experience even better.,Positive,Governance
 "This joint walks the talk on being inclusive. From where they source to how they run the ship, it's all about fairness and respect. Mad respect!",Positive,Governance
 "This place isn't just about good eats; it's about good governance. Diverse team, ethical moves – dining here feels like you're making a positive choice.",Positive,Governance
 "Cheers to this spot for being on the ball with responsible governance. Fair wages, equal chances – they're doing their part in making things right.",Positive,Governance
 "When you choose this place, you're not just getting a meal – you're supporting a business with a heart. Eco-friendly, fair, and freaking fantastic!",Positive,Governance
-"Disappointed by the lack of diversity in leadership roles. The absence of inclusive governance practices raises concerns about the restaurant's commitment to equality.",Negative,Governance
-"Governance concerns overshadow the dining experience here. Unethical business practices and a lack of transparency leave a negative impression on conscious diners.",Negative,Governance
+Disappointed by the lack of diversity in leadership roles. The absence of inclusive governance practices raises concerns about the restaurant's commitment to equality.,Negative,Governance
+Governance concerns overshadow the dining experience here. Unethical business practices and a lack of transparency leave a negative impression on conscious diners.,Negative,Governance
 "Looks can be deceiving. Behind the 'responsible' claims, this restaurant lacks substantial efforts towards ethical governance, contributing to skepticism.",Negative,Governance
-"Not convinced by the 'diverse' image. The lack of equal opportunities and fair treatment of employees leaves a sour note in an otherwise pleasant dining experience.",Negative,Governance
-"Governance issues loom large. The restaurant's failure to address fair wages and ethical business practices raises questions about its commitment to responsible governance.",Negative,Governance
-"Thumbs down for governance practices here. The lack of transparency in sourcing and an absence of fair labor practices undermine the advertised commitment to responsibility.",Negative,Governance
-"Skeptical about their commitment to responsible governance. The glossy exterior seems to mask a lack of tangible efforts towards ethical business practices.",Negative,Governance
-"Behind the 'inclusive' claims is a disappointing reality. The absence of clear efforts in ethical governance suggests this place is more about image than substance.",Negative,Governance
-"Red flags for those concerned about responsible governance. The minimal effort in actual ethical practices makes their claims questionable and unconvincing.",Negative,Governance
+Not convinced by the 'diverse' image. The lack of equal opportunities and fair treatment of employees leaves a sour note in an otherwise pleasant dining experience.,Negative,Governance
+Governance issues loom large. The restaurant's failure to address fair wages and ethical business practices raises questions about its commitment to responsible governance.,Negative,Governance
+Thumbs down for governance practices here. The lack of transparency in sourcing and an absence of fair labor practices undermine the advertised commitment to responsibility.,Negative,Governance
+Skeptical about their commitment to responsible governance. The glossy exterior seems to mask a lack of tangible efforts towards ethical business practices.,Negative,Governance
+Behind the 'inclusive' claims is a disappointing reality. The absence of clear efforts in ethical governance suggests this place is more about image than substance.,Negative,Governance
+Red flags for those concerned about responsible governance. The minimal effort in actual ethical practices makes their claims questionable and unconvincing.,Negative,Governance
 "Disheartened to discover the 'responsible' hype was just a marketing strategy. Genuine commitment to responsible governance is absent, leaving a bitter taste in both dining and conscience.",Negative,Governance
 "Man, I thought this place was all about being diverse, but the leadership looks like a monoculture. Not cool, not cool at all.",Negative,Governance
-"Governance drama ruins the vibe here. Sketchy business moves and no transparency – they need to get their act together and be straight with customers.",Negative,Governance
-"Behind the 'responsible' front is some shady stuff. They talk the talk but don't walk the walk when it comes to real ethical governance.",Negative,Governance
+Governance drama ruins the vibe here. Sketchy business moves and no transparency – they need to get their act together and be straight with customers.,Negative,Governance
+Behind the 'responsible' front is some shady stuff. They talk the talk but don't walk the walk when it comes to real ethical governance.,Negative,Governance
 "Not buying into the 'diverse' image they're selling. The crew seems like they're all cut from the same cloth, and fair treatment is just a distant dream.",Negative,Governance
 "Governance mess at this place. No fair wages, no ethical moves – it's like they don't give a damn about doing the right thing.",Negative,Governance
 "Major letdown on the governance front. They say one thing, but their actions scream the opposite. No transparency, no ethical backbone – just disappointing.",Negative,Governance
-"Skeptical about their so-called 'responsible' governance. Looks more like a cover-up for shady practices than a genuine commitment to doing right.",Negative,Governance
-"Behind the 'inclusive' claims is a whole lot of nothing. No clear moves towards ethical governance – just an image they're trying to sell.",Negative,Governance
-"Red flags for those who care about responsible governance. The bare minimum effort in actual ethical practices makes their claims sound like BS.",Negative,Governance
+Skeptical about their so-called 'responsible' governance. Looks more like a cover-up for shady practices than a genuine commitment to doing right.,Negative,Governance
+Behind the 'inclusive' claims is a whole lot of nothing. No clear moves towards ethical governance – just an image they're trying to sell.,Negative,Governance
+Red flags for those who care about responsible governance. The bare minimum effort in actual ethical practices makes their claims sound like BS.,Negative,Governance
 "Disheartened to find out their 'responsible' stance was just a marketing ploy. Genuine commitment to ethical governance is MIA, leaving a bad taste in both dining and conscience.",Negative,Governance

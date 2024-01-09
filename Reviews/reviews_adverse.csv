@@ -1,41 +1,41 @@
-review,category,topic
-"A dining experience that aligns with my eco-conscious values. Locally sourced ingredients and sustainable practices shine through each delightful dish!",Positive,Adverse
+review,label,category
+A dining experience that aligns with my eco-conscious values. Locally sourced ingredients and sustainable practices shine through each delightful dish!,Positive,Adverse
 "This restaurant is a beacon of sustainability! From their commitment to reducing waste to using eco-friendly packaging, they're paving the way for greener dining.",Positive,Adverse
-"Love the green ethos here – a menu that not only satisfies my taste buds but also supports local farmers and embraces eco-friendly practices. Fantastic!",Positive,Adverse
+Love the green ethos here – a menu that not only satisfies my taste buds but also supports local farmers and embraces eco-friendly practices. Fantastic!,Positive,Adverse
 "Impressed by their dedication to the environment. Solar panels, recycling initiatives, and a menu crafted with organic, seasonal ingredients – a win for nature!",Positive,Adverse
 "Finally, a place that makes being environmentally friendly delicious! Their focus on sustainable seafood and reducing their carbon footprint is commendable.",Positive,Adverse
 "Kudos to this restaurant for putting the planet first. The ambiance is fantastic, and every bite carries the freshness of locally grown, organic produce.",Positive,Adverse
 "This spot earns top marks for sustainability. Enjoying a meal here means supporting eco-friendly choices, from energy-efficient practices to local sourcing.",Positive,Adverse
 "Great food with a side of conscience! The commitment to sustainability, from energy-efficient measures to supporting local farmers, makes dining here special.",Positive,Adverse
 "A green oasis in the dining scene. Locally grown, organic produce takes center stage, proving that sustainability and flavor can coexist seamlessly.",Positive,Adverse
-"Absolutely love this restaurant's eco-friendly stance. Their use of compostable containers and dedication to reducing waste makes each visit feel responsible and satisfying.",Positive,Adverse
-"An absolute delight for eco-conscious diners! This restaurant’s dedication to sustainability reflects in every aspect – from ingredients to waste reduction.",Positive,Adverse
-"Dining here feels like a positive impact on the planet. Locally sourced and organic choices make each meal a celebration of nature's bounty.",Positive,Adverse
+Absolutely love this restaurant's eco-friendly stance. Their use of compostable containers and dedication to reducing waste makes each visit feel responsible and satisfying.,Positive,Adverse
+An absolute delight for eco-conscious diners! This restaurant’s dedication to sustainability reflects in every aspect – from ingredients to waste reduction.,Positive,Adverse
+Dining here feels like a positive impact on the planet. Locally sourced and organic choices make each meal a celebration of nature's bounty.,Positive,Adverse
 "A green haven! Their commitment to eco-friendly practices, like eliminating single-use plastics and supporting local farmers, sets a high standard.",Positive,Adverse
-"A gastronomic journey with a conscience! The use of renewable energy and locally grown produce adds a refreshing eco-friendly touch to every plate.",Positive,Adverse
-"This place deserves applause for its green initiatives. The fusion of flavors mirrors their commitment to supporting the environment – a win-win!",Positive,Adverse
+A gastronomic journey with a conscience! The use of renewable energy and locally grown produce adds a refreshing eco-friendly touch to every plate.,Positive,Adverse
+This place deserves applause for its green initiatives. The fusion of flavors mirrors their commitment to supporting the environment – a win-win!,Positive,Adverse
 "Eco-friendly dining at its finest! From biodegradable packaging to energy-efficient operations, this restaurant exemplifies responsible culinary choices.",Positive,Adverse
-"Thrilled to support a restaurant that values sustainability. Seasonal menus and a focus on reducing their carbon footprint make each visit meaningful.",Positive,Adverse
-"Sustainability isn't just a buzzword here – it's a way of life. The dedication to sourcing locally and minimizing waste showcases their eco-friendly ethos.",Positive,Adverse
-"Impressed by the harmony of flavors and sustainability. This restaurant proves that a commitment to the environment can be as enticing as the menu.",Positive,Adverse
-"Green dining has a new address! This spot combines culinary excellence with a genuine passion for the planet – a model for eco-friendly establishments.",Positive,Adverse
-"Disheartened to discover the green claims are a smokescreen. 'Eco-friendly' packaging doesn't mask the excessive waste and lack of genuine sustainability efforts.",Negative,Adverse
-"Greenwashing alert! Beneath the eco-friendly facade lies a stark reality – marketing gimmicks overshadow the absence of true environmental commitment.",Negative,Adverse
+Thrilled to support a restaurant that values sustainability. Seasonal menus and a focus on reducing their carbon footprint make each visit meaningful.,Positive,Adverse
+Sustainability isn't just a buzzword here – it's a way of life. The dedication to sourcing locally and minimizing waste showcases their eco-friendly ethos.,Positive,Adverse
+Impressed by the harmony of flavors and sustainability. This restaurant proves that a commitment to the environment can be as enticing as the menu.,Positive,Adverse
+Green dining has a new address! This spot combines culinary excellence with a genuine passion for the planet – a model for eco-friendly establishments.,Positive,Adverse
+Disheartened to discover the green claims are a smokescreen. 'Eco-friendly' packaging doesn't mask the excessive waste and lack of genuine sustainability efforts.,Negative,Adverse
+Greenwashing alert! Beneath the eco-friendly facade lies a stark reality – marketing gimmicks overshadow the absence of true environmental commitment.,Negative,Adverse
 "Looks can be deceiving. Behind the eco-friendly marketing, this restaurant lacks substantial efforts towards real sustainability. Greenwashing at its finest.",Negative,Adverse
-"Not fooled by the 'green' image they project. Lack of transparency on sourcing and genuine environmental initiatives makes this place a greenwashing disappointment.",Negative,Adverse
-"Greenwashing in full swing – talk about being green doesn't match the reality. Plastic utensils and excessive packaging contradict their 'eco-friendly' claims.",Negative,Adverse
-"Don't be fooled by their 'green' marketing. The reality is a far cry from sustainability. Single-use plastics and non-local ingredients – a major letdown.",Negative,Adverse
-"Skeptical about their commitment to the environment. The hype around eco-friendly practices seems more like a gimmick than genuine sustainable efforts.",Negative,Adverse
-"Behind the green curtain lies a disappointing reality. Lack of clear eco-friendly measures suggests this place is more about image than substance.",Negative,Adverse
-"Greenwashing red flags here – minimal effort in actual eco-friendly practices. The eco-conscious consumer deserves more than just marketing stunts.",Negative,Adverse
+Not fooled by the 'green' image they project. Lack of transparency on sourcing and genuine environmental initiatives makes this place a greenwashing disappointment.,Negative,Adverse
+Greenwashing in full swing – talk about being green doesn't match the reality. Plastic utensils and excessive packaging contradict their 'eco-friendly' claims.,Negative,Adverse
+Don't be fooled by their 'green' marketing. The reality is a far cry from sustainability. Single-use plastics and non-local ingredients – a major letdown.,Negative,Adverse
+Skeptical about their commitment to the environment. The hype around eco-friendly practices seems more like a gimmick than genuine sustainable efforts.,Negative,Adverse
+Behind the green curtain lies a disappointing reality. Lack of clear eco-friendly measures suggests this place is more about image than substance.,Negative,Adverse
+Greenwashing red flags here – minimal effort in actual eco-friendly practices. The eco-conscious consumer deserves more than just marketing stunts.,Negative,Adverse
 "Disappointed to discover the 'green' hype was just a marketing strategy. Genuine sustainability is absent, leaving a bitter taste in both food and conscience.",Negative,Adverse
 "Greenwashing exposed! Despite claims, this restaurant's eco-friendly image is just a veneer. Excessive waste and lack of transparency reveal a disappointing truth.",Negative,Adverse
 "Deceptive marketing overshadows real sustainability efforts. 'Green' promises fall flat, exposing a lack of commitment to genuine eco-friendly practices.",Negative,Adverse
-"Behind the 'eco-friendly' label lies a disappointing reality. The absence of concrete measures for sustainability makes their claims questionable at best.",Negative,Adverse
-"Not fooled by the greenwashing tactics. This restaurant lacks the genuine commitment to environmental responsibility despite the façade of eco-friendliness.",Negative,Adverse
-"Greenwashing in action – talk about sustainability doesn’t match the actual practices. Plastic use and non-local sourcing contradict their 'green' claims.",Negative,Adverse
-"The 'green' marketing here is just a cover-up. Single-use plastics and questionable sourcing practices undermine the credibility of their eco-friendly image.",Negative,Adverse
-"Skeptical about their true commitment to the environment. The glossy green exterior masks a lack of tangible efforts towards real sustainability.",Negative,Adverse
-"Behind the green façade is a disappointing lack of substance. The absence of clear eco-friendly measures suggests this place is more about appearance than reality.",Negative,Adverse
-"Greenwashing red flags here – minimal effort in actual eco-friendly practices. The eco-conscious consumer deserves more than just superficial environmental gestures.",Negative,Adverse
+Behind the 'eco-friendly' label lies a disappointing reality. The absence of concrete measures for sustainability makes their claims questionable at best.,Negative,Adverse
+Not fooled by the greenwashing tactics. This restaurant lacks the genuine commitment to environmental responsibility despite the façade of eco-friendliness.,Negative,Adverse
+Greenwashing in action – talk about sustainability doesn’t match the actual practices. Plastic use and non-local sourcing contradict their 'green' claims.,Negative,Adverse
+The 'green' marketing here is just a cover-up. Single-use plastics and questionable sourcing practices undermine the credibility of their eco-friendly image.,Negative,Adverse
+Skeptical about their true commitment to the environment. The glossy green exterior masks a lack of tangible efforts towards real sustainability.,Negative,Adverse
+Behind the green façade is a disappointing lack of substance. The absence of clear eco-friendly measures suggests this place is more about appearance than reality.,Negative,Adverse
+Greenwashing red flags here – minimal effort in actual eco-friendly practices. The eco-conscious consumer deserves more than just superficial environmental gestures.,Negative,Adverse
 "Disappointed to find the 'green' claims were just for show. Genuine sustainability is overshadowed by marketing tactics, leaving a sour taste in both dining and conscience.",Negative,Adverse
