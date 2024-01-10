@@ -21,7 +21,7 @@ class Model:
         self.name = name
 
         self.dataframe = dataframe
-        self.dataset = self.dataframe_to_dataset()
+        self.dataset = self.dataframe_to_dataset(dataframe=dataframe)
         self.train_dataset = None
         self.test_dataset = None
         self.eval_dataset = None
@@ -33,7 +33,7 @@ class Model:
         return Dataset.from_pandas(dataframe)
 
     def plot_word_cloud(self, save_path=WORDCLOUDS_LOCATION):
-        reviews = " ".join(self.dataframe['review'])
+        reviews = " ".join(self.dataset['review'])
 
         # Generate word cloud
         wordcloud = WordCloud(width=800, height=400, random_state=21, max_font_size=110).generate(reviews)
