@@ -1,0 +1,22 @@
+Topics: Reviews will cover various aspects of a restaurant experience, focusing on specific themes like social responsibility, governance, waste, water, and organic practices.
+
+Grading Scale:
+    Grade 0: Very negative opinion about the topic.
+    Grade 1: A somewhat negative opinion. There's an effort acknowledged, but it falls short of expectations.
+    Grade 2: Neutral opinion with a subtle acknowledgment of effort but deemed insufficient.
+    Grade 3: A more positively framed neutral opinion, recognizing a commendable effort.
+    Grade 4: A moderately positive opinion, falling between the optimism of the 5th grade and the mediocrity of the 3rd one.
+    Grade 5: Very positive, outstanding opinion about the topic.
+
+Language Styles: Different language styles, including abbreviations, familiar language (within limits), and higher-level language, will be incorporated. No swear words will be used.
+
+Variation in Vocabulary: Each review will use distinct vocabulary, avoiding similarities in expression.
+
+No Duplication in Expressions: Ensure that no two reviews have the same expression or wording, especially at the beginning of the review. Aim for originality and diversity in language usage.
+
+Adjectives in Reviews: Avoid using the same adjectives or phrases mentioned in the description of how the reviews should be crafted.
+
+Specific Expressions: Avoid using certain specific words or phrases unless otherwise instructed.
+
+Review Format: Provide the reviews in a CSV format with columns for the review text, the assigned grade, and the topic.
+
