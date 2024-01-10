@@ -8,6 +8,7 @@ DATA_LOCATION = 'Data/'
 def init_models():
     models = []
     for filename in os.listdir(DATA_LOCATION):
+        print_colored(filename, "red")
         if filename.endswith(".csv"):
             csv_path = os.path.join(DATA_LOCATION, filename)
             df = pd.read_csv(csv_path)
