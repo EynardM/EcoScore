@@ -87,7 +87,7 @@ class Model:
         predicted_class = torch.argmax(logits, dim=1).item()
         return predicted_class
 
-    def get_metrics(self):
+    def compute_metrics(self):
         predictions, true_labels = self.make_predictions(self.test_dataset)
         f1 = f1_score(true_labels, predictions, average='weighted')
         accuracy = accuracy_score(true_labels, predictions)
@@ -104,7 +104,7 @@ class Model:
         val_data, test_data = train_test_split(temp_data, test_size=(test_size / (test_size + eval_size)), random_state=42)
         return Dataset.from_dict(train_data), Dataset.from_dict(test_data), Dataset.from_dict(val_data)
     
-    def fine_tune(self, num_train_epochs=2, eval_size=0.1, test_size=0.2, model_name='distilbert-base-cased'):
+    def fine_tune(self, num_train_epochs=1, eval_size=0.1, test_size=0.2, model_name='distilbert-base-cased'):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=6)
 

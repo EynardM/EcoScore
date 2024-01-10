@@ -23,7 +23,7 @@ def fine_tuning(models):
         model.fine_tune()
 
 def predict_random(models):
-    review_data = pd.read_csv(os.path.join(DATA_LOCATION, 'Restaurant.csv'))
+    review_data = pd.read_csv('Restaurant.csv')
     for _, row in review_data.iterrows():
         review_text = row['review']
         category = row['category']
