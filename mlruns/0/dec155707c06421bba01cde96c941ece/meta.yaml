@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cytech/Desktop/gits/EcoScore/mlruns/0/dec155707c06421bba01cde96c941ece/artifacts
+end_time: 1704907525099
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dec155707c06421bba01cde96c941ece
+run_name: EynardM/sentiment-analysis-Water
+run_uuid: dec155707c06421bba01cde96c941ece
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704907500570
+status: 3
+tags: []
+user_id: cytech

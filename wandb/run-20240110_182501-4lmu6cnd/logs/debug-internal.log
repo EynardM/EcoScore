@@ -1,0 +1,195 @@
+2024-01-10 18:25:01,768 INFO    StreamThr :49409 [internal.py:wandb_internal():86] W&B internal server running at pid: 49409, started at: 2024-01-10 18:25:01.767200
+2024-01-10 18:25:01,770 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: status
+2024-01-10 18:25:01,776 INFO    WriterThread:49409 [datastore.py:open_for_write():85] open: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/run-4lmu6cnd.wandb
+2024-01-10 18:25:01,776 DEBUG   SenderThread:49409 [sender.py:send():382] send: header
+2024-01-10 18:25:01,819 DEBUG   SenderThread:49409 [sender.py:send():382] send: run
+2024-01-10 18:25:02,244 INFO    SenderThread:49409 [dir_watcher.py:__init__():211] watching files in: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files
+2024-01-10 18:25:02,245 INFO    SenderThread:49409 [sender.py:_start_run_threads():1136] run started: 4lmu6cnd with start time 1704907501.767667
+2024-01-10 18:25:02,256 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: check_version
+2024-01-10 18:25:02,256 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: check_version
+2024-01-10 18:25:02,459 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: run_start
+2024-01-10 18:25:02,460 DEBUG   HandlerThread:49409 [system_info.py:__init__():32] System info init
+2024-01-10 18:25:02,460 DEBUG   HandlerThread:49409 [system_info.py:__init__():47] System info init done
+2024-01-10 18:25:02,460 INFO    HandlerThread:49409 [system_monitor.py:start():194] Starting system monitor
+2024-01-10 18:25:02,460 INFO    SystemMonitor:49409 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-10 18:25:02,460 INFO    HandlerThread:49409 [system_monitor.py:probe():214] Collecting system info
+2024-01-10 18:25:02,461 INFO    SystemMonitor:49409 [interfaces.py:start():190] Started cpu monitoring
+2024-01-10 18:25:02,462 INFO    SystemMonitor:49409 [interfaces.py:start():190] Started disk monitoring
+2024-01-10 18:25:02,462 INFO    SystemMonitor:49409 [interfaces.py:start():190] Started memory monitoring
+2024-01-10 18:25:02,462 INFO    SystemMonitor:49409 [interfaces.py:start():190] Started network monitoring
+2024-01-10 18:25:02,487 DEBUG   HandlerThread:49409 [system_info.py:probe():196] Probing system
+2024-01-10 18:25:02,491 DEBUG   HandlerThread:49409 [system_info.py:_probe_git():181] Probing git
+2024-01-10 18:25:02,499 DEBUG   HandlerThread:49409 [system_info.py:_probe_git():189] Probing git done
+2024-01-10 18:25:02,499 DEBUG   HandlerThread:49409 [system_info.py:probe():244] Probing system done
+2024-01-10 18:25:02,499 DEBUG   HandlerThread:49409 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-87-generic-x86_64-with-glibc2.31', 'python': '3.9.5', 'heartbeatAt': '2024-01-10T17:25:02.487345', 'startedAt': '2024-01-10T17:25:01.759436', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/cytech/Desktop/gits/EcoScore/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'git@github.com:EynardM/EcoScore.git', 'commit': '887688aa0a29005f047a9bc8fd72ebcce095e9cb'}, 'email': 'maxime.eynard@cy-tech.fr', 'root': '/home/cytech/Desktop/gits/EcoScore', 'host': 'student-laptop', 'username': 'cytech', 'executable': '/usr/bin/python3.9', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2633.6331250000003, 'min': 400.0, 'max': 4200.0}, 'cpu_freq_per_core': [{'current': 3398.021, 'min': 400.0, 'max': 4200.0}, {'current': 1793.34, 'min': 400.0, 'max': 4200.0}, {'current': 3610.164, 'min': 400.0, 'max': 4200.0}, {'current': 1400.0, 'min': 400.0, 'max': 4200.0}, {'current': 1400.0, 'min': 400.0, 'max': 4200.0}, {'current': 1400.0, 'min': 400.0, 'max': 4200.0}, {'current': 1893.629, 'min': 400.0, 'max': 4200.0}, {'current': 1400.0, 'min': 400.0, 'max': 4200.0}], 'disk': {'/': {'total': 117.55816650390625, 'used': 111.52996444702148}}, 'memory': {'total': 7.501247406005859}}
+2024-01-10 18:25:02,499 INFO    HandlerThread:49409 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-10 18:25:02,499 INFO    HandlerThread:49409 [system_monitor.py:probe():227] Publishing system info
+2024-01-10 18:25:02,499 DEBUG   HandlerThread:49409 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-10 18:25:02,500 DEBUG   HandlerThread:49409 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-10 18:25:02,500 INFO    HandlerThread:49409 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-10 18:25:02,505 DEBUG   SenderThread:49409 [sender.py:send():382] send: files
+2024-01-10 18:25:02,506 INFO    SenderThread:49409 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-10 18:25:02,510 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-10 18:25:02,510 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: stop_status
+2024-01-10 18:25:02,515 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-10 18:25:02,880 DEBUG   SenderThread:49409 [sender.py:send():382] send: telemetry
+2024-01-10 18:25:02,881 DEBUG   SenderThread:49409 [sender.py:send():382] send: config
+2024-01-10 18:25:02,883 DEBUG   SenderThread:49409 [sender.py:send():382] send: metric
+2024-01-10 18:25:02,883 DEBUG   SenderThread:49409 [sender.py:send():382] send: telemetry
+2024-01-10 18:25:02,883 DEBUG   SenderThread:49409 [sender.py:send():382] send: metric
+2024-01-10 18:25:02,883 WARNING SenderThread:49409 [sender.py:send_metric():1343] Seen metric with glob (shouldn't happen)
+2024-01-10 18:25:02,883 DEBUG   SenderThread:49409 [sender.py:send():382] send: telemetry
+2024-01-10 18:25:03,182 INFO    wandb-upload_0:49409 [upload_job.py:push():131] Uploaded file /tmp/tmpu9n2_xtrwandb/uldnrong-wandb-metadata.json
+2024-01-10 18:25:03,248 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log
+2024-01-10 18:25:03,249 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/wandb-metadata.json
+2024-01-10 18:25:03,249 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/requirements.txt
+2024-01-10 18:25:05,249 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log
+2024-01-10 18:25:06,900 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: status_report
+2024-01-10 18:25:11,903 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: status_report
+2024-01-10 18:25:13,257 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log
+2024-01-10 18:25:16,991 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: status_report
+2024-01-10 18:25:17,519 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-10 18:25:17,520 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-10 18:25:17,521 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: stop_status
+2024-01-10 18:25:19,643 DEBUG   SenderThread:49409 [sender.py:send():382] send: exit
+2024-01-10 18:25:19,643 INFO    SenderThread:49409 [sender.py:send_exit():589] handling exit code: 0
+2024-01-10 18:25:19,644 INFO    SenderThread:49409 [sender.py:send_exit():591] handling runtime: 17
+2024-01-10 18:25:19,649 INFO    SenderThread:49409 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-10 18:25:19,650 INFO    SenderThread:49409 [sender.py:send_exit():597] send defer
+2024-01-10 18:25:19,650 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,650 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-10 18:25:19,651 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,651 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-10 18:25:19,651 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 1
+2024-01-10 18:25:19,651 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,651 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-10 18:25:19,651 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,651 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-10 18:25:19,652 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 2
+2024-01-10 18:25:19,652 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,652 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-10 18:25:19,652 INFO    HandlerThread:49409 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-10 18:25:19,652 DEBUG   SystemMonitor:49409 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-10 18:25:19,652 INFO    HandlerThread:49409 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-10 18:25:19,652 DEBUG   SystemMonitor:49409 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-10 18:25:19,652 INFO    HandlerThread:49409 [interfaces.py:finish():202] Joined disk monitor
+2024-01-10 18:25:19,652 DEBUG   SystemMonitor:49409 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-10 18:25:19,652 INFO    HandlerThread:49409 [interfaces.py:finish():202] Joined memory monitor
+2024-01-10 18:25:19,653 INFO    HandlerThread:49409 [interfaces.py:finish():202] Joined network monitor
+2024-01-10 18:25:19,653 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,653 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-10 18:25:19,653 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 3
+2024-01-10 18:25:19,654 DEBUG   SenderThread:49409 [sender.py:send():382] send: stats
+2024-01-10 18:25:19,654 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,654 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-10 18:25:19,654 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,654 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-10 18:25:19,654 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 4
+2024-01-10 18:25:19,654 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,654 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-10 18:25:19,654 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,655 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-10 18:25:19,655 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 5
+2024-01-10 18:25:19,655 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,655 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-10 18:25:19,655 DEBUG   SenderThread:49409 [sender.py:send():382] send: summary
+2024-01-10 18:25:19,655 INFO    SenderThread:49409 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-10 18:25:19,655 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,655 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-10 18:25:19,655 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 6
+2024-01-10 18:25:19,655 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,656 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-10 18:25:19,656 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,656 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-10 18:25:19,661 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: status_report
+2024-01-10 18:25:19,890 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 7
+2024-01-10 18:25:19,890 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:19,890 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-10 18:25:19,891 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:19,891 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-10 18:25:20,260 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/config.yaml
+2024-01-10 18:25:20,261 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/wandb-summary.json
+2024-01-10 18:25:20,643 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-10 18:25:20,920 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 8
+2024-01-10 18:25:20,921 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: poll_exit
+2024-01-10 18:25:20,921 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:20,921 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-10 18:25:20,921 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:20,922 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-10 18:25:20,922 INFO    SenderThread:49409 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-10 18:25:20,922 INFO    SenderThread:49409 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-01-10 18:25:20,984 INFO    SenderThread:49409 [job_builder.py:build():404] adding wandb-job metadata file
+2024-01-10 18:25:20,991 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 9
+2024-01-10 18:25:20,991 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:20,992 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-10 18:25:20,992 DEBUG   SenderThread:49409 [sender.py:send():382] send: artifact
+2024-01-10 18:25:21,261 INFO    Thread-12 :49409 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log
+2024-01-10 18:25:21,644 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-10 18:25:22,080 INFO    SenderThread:49409 [sender.py:send_artifact():1470] sent artifact job-git_github.com_EynardM_EcoScore.git_main.py - {'id': 'QXJ0aWZhY3Q6Njg3MzE5MzUx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyOTA0OTg3MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njg3MzM3MjAx', 'versionIndex': 3}}}
+2024-01-10 18:25:22,081 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:22,081 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-10 18:25:22,081 INFO    SenderThread:49409 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-10 18:25:22,262 INFO    SenderThread:49409 [dir_watcher.py:finish():388] scan: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files
+2024-01-10 18:25:22,262 INFO    SenderThread:49409 [dir_watcher.py:finish():402] scan save: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/config.yaml config.yaml
+2024-01-10 18:25:22,263 INFO    SenderThread:49409 [dir_watcher.py:finish():402] scan save: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/requirements.txt requirements.txt
+2024-01-10 18:25:22,268 INFO    SenderThread:49409 [dir_watcher.py:finish():402] scan save: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/wandb-metadata.json wandb-metadata.json
+2024-01-10 18:25:22,268 INFO    SenderThread:49409 [dir_watcher.py:finish():402] scan save: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/wandb-summary.json wandb-summary.json
+2024-01-10 18:25:22,271 INFO    SenderThread:49409 [dir_watcher.py:finish():402] scan save: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log output.log
+2024-01-10 18:25:22,275 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 10
+2024-01-10 18:25:22,275 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: poll_exit
+2024-01-10 18:25:22,276 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:22,280 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-10 18:25:22,281 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:22,282 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-10 18:25:22,282 INFO    SenderThread:49409 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-10 18:25:22,643 INFO    wandb-upload_0:49409 [upload_job.py:push():131] Uploaded file /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/config.yaml
+2024-01-10 18:25:22,647 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-10 18:25:22,648 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: poll_exit
+2024-01-10 18:25:22,713 INFO    wandb-upload_1:49409 [upload_job.py:push():131] Uploaded file /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/requirements.txt
+2024-01-10 18:25:22,762 INFO    wandb-upload_3:49409 [upload_job.py:push():131] Uploaded file /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/output.log
+2024-01-10 18:25:22,766 INFO    wandb-upload_2:49409 [upload_job.py:push():131] Uploaded file /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/files/wandb-summary.json
+2024-01-10 18:25:22,966 INFO    Thread-11 :49409 [sender.py:transition_state():617] send defer: 11
+2024-01-10 18:25:22,967 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:22,967 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-10 18:25:22,968 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:22,968 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-10 18:25:22,968 INFO    SenderThread:49409 [file_pusher.py:join():181] waiting for file pusher
+2024-01-10 18:25:22,968 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 12
+2024-01-10 18:25:22,968 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:22,968 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-10 18:25:22,969 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:22,969 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-10 18:25:22,969 INFO    SenderThread:49409 [file_stream.py:finish():595] file stream finish called
+2024-01-10 18:25:23,214 INFO    SenderThread:49409 [file_stream.py:finish():599] file stream finish is done
+2024-01-10 18:25:23,215 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 13
+2024-01-10 18:25:23,215 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:23,215 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-10 18:25:23,216 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:23,216 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-10 18:25:23,216 INFO    SenderThread:49409 [sender.py:transition_state():617] send defer: 14
+2024-01-10 18:25:23,217 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: defer
+2024-01-10 18:25:23,217 DEBUG   SenderThread:49409 [sender.py:send():382] send: final
+2024-01-10 18:25:23,217 INFO    HandlerThread:49409 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-10 18:25:23,217 DEBUG   SenderThread:49409 [sender.py:send():382] send: footer
+2024-01-10 18:25:23,218 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: defer
+2024-01-10 18:25:23,218 INFO    SenderThread:49409 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-10 18:25:23,219 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-10 18:25:23,220 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-10 18:25:23,220 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: poll_exit
+2024-01-10 18:25:23,221 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: server_info
+2024-01-10 18:25:23,222 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: poll_exit
+2024-01-10 18:25:23,222 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-10 18:25:23,223 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: server_info
+2024-01-10 18:25:23,223 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-10 18:25:23,228 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-10 18:25:23,230 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: job_info
+2024-01-10 18:25:23,377 DEBUG   SenderThread:49409 [sender.py:send_request():409] send_request: job_info
+2024-01-10 18:25:23,377 INFO    MainThread:49409 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-10 18:25:23,378 INFO    MainThread:49409 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-10 18:25:23,378 INFO    MainThread:49409 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-10 18:25:23,378 DEBUG   HandlerThread:49409 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-10 18:25:23,378 INFO    HandlerThread:49409 [handler.py:finish():866] shutting down handler
+2024-01-10 18:25:24,231 INFO    WriterThread:49409 [datastore.py:close():294] close: /home/cytech/Desktop/gits/EcoScore/wandb/run-20240110_182501-4lmu6cnd/run-4lmu6cnd.wandb
+2024-01-10 18:25:24,377 INFO    SenderThread:49409 [sender.py:finish():1548] shutting down sender
+2024-01-10 18:25:24,378 INFO    SenderThread:49409 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-10 18:25:24,378 INFO    SenderThread:49409 [file_pusher.py:join():181] waiting for file pusher

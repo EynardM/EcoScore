@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 from datasets import Dataset
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score, accuracy_score
@@ -13,6 +14,8 @@ from transformers import (
     Trainer, 
     DataCollatorWithPadding )
 
+
+DATA_LOCATION = 'Test_Data/'
 WORDCLOUDS_LOCATION = 'Plots/WordClouds/'
 DISTRIBUTIONS_LOCATION = 'Plots/Distributions/'
 
@@ -87,11 +90,12 @@ class Model:
         predicted_class = torch.argmax(logits, dim=1).item()
         return predicted_class
 
-    def compute_metrics(self):
-        predictions, true_labels = self.make_predictions(self.test_dataset)
-        f1 = f1_score(true_labels, predictions, average='weighted')
-        accuracy = accuracy_score(true_labels, predictions)
-        return {"f1_score": f1, "accuracy": accuracy}
+    @staticmethod
+    def compute_metrics(eval_predictions):
+        logits, labels = eval_predictions
+        predictions = np.argmax(logits, axis=-1)
+        f1 = f1_score(labels, predictions, average='weighted')
+        return {"f1_score": f1}
     
     @staticmethod
     def tokenize_review(sample, tokenizer):

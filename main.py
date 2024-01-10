@@ -3,7 +3,7 @@ import pandas as pd
 from objects import Model
 from util import print_colored
 
-DATA_LOCATION = 'Data/'
+DATA_LOCATION = 'Test_Data/'
 
 def init_models():
     models = []
@@ -21,29 +21,11 @@ def init_models():
 
 def fine_tuning(models):
     for model in models:
-        model.fine_tune()
-
-def predict_random(models):
-    review_data = pd.read_csv('Restaurant.csv')
-    for _, row in review_data.iterrows():
-        review_text = row['review']
-        category = row['category']
-
-        # Find the corresponding model
-        selected_model = next((model for model in models if model.name == category), None)
-
-        if selected_model:
-            predicted_rating = selected_model.predict(review_text)
-            print_colored(review_text, "red")
-            print(f"Predicted Rating by {selected_model.name}: {predicted_rating}")
-            print("-" * 50)
-        else:
-            print(f"No model found for category: {category}")
+        model.fine_tune(num_train_epochs=10)
 
 def main():
     models = init_models()
     print("Fine tuning models ...")
     fine_tuning(models=models)
-    predict_random(models)
 if __name__ == "__main__":
     main()

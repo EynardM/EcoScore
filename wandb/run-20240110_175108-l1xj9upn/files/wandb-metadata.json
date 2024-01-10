@@ -1,0 +1,80 @@
+{
+    "os": "Linux-5.15.0-87-generic-x86_64-with-glibc2.31",
+    "python": "3.9.5",
+    "heartbeatAt": "2024-01-10T16:51:09.497940",
+    "startedAt": "2024-01-10T16:51:08.511071",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/cytech/Desktop/gits/EcoScore/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "git@github.com:EynardM/EcoScore.git",
+        "commit": "887688aa0a29005f047a9bc8fd72ebcce095e9cb"
+    },
+    "email": "maxime.eynard@cy-tech.fr",
+    "root": "/home/cytech/Desktop/gits/EcoScore",
+    "host": "student-laptop",
+    "username": "cytech",
+    "executable": "/usr/bin/python3.9",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1536.89775,
+        "min": 400.0,
+        "max": 4200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2495.182,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1400.0,
+            "min": 400.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 117.55816650390625,
+            "used": 111.38804626464844
+        }
+    },
+    "memory": {
+        "total": 7.501247406005859
+    }
+}
