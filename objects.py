@@ -47,7 +47,7 @@ class Model:
         if save_path:
             save_path = os.path.join(save_path, f'{self.name}_wordcloud.png')
             plt.savefig(save_path, bbox_inches='tight')
-            plt.close()
+            plt.close('all')
         else:
             plt.show()
 
@@ -68,7 +68,7 @@ class Model:
         if save_path:
             save_path = os.path.join(save_path, f'{self.name}_distribution.png')
             plt.savefig(save_path, bbox_inches='tight')
-            plt.close()
+            plt.close('all')
         else:
             plt.show()
 
