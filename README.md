@@ -26,7 +26,9 @@ To do so, you can run: **GpuScipts/Ecoscore_allin_finetune.ipynb** (with the run
 Datasets: *Data/...* (CSV files) or *Datasets/...* (Dataset objects from the datasets library)
 
 ### Try with a simple model and embeddings
-...
+We tried with a simple model if we could have good results just in predicting grades on reviews. So we tried the same model on both the dataset entirely
+made with ChatGPT and the one with real reviews and ChatGPT. We noticed that it was better with the dataset with real reviews. To test it, you just need
+to run the files.
 
 ### Chosen Solution for the Presentation, the best one
 We fine-tune a model for each category. 
