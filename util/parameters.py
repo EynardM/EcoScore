@@ -1,3 +1,4 @@
+# Parameters
 TEST_SIZE = 0.2
 VAL_SIZE = 0.8
 CATEGORIES = ['organic', 'climate', 'water', 'social', 'governance', 'waste', 'adverse']

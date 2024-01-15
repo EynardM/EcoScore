@@ -2,6 +2,7 @@
 CSV_PATH = 'RealData/'
 DATASET_PATH = "Datasets/"
 PLOT_PATH = "Plots/"
+
 # Datasets paths
 ORGANIC_DATASET_PATH = "Datasets/organic/"
 CLIMATE_DATASET_PATH = "Datasets/climate/"

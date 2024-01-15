@@ -1,5 +1,6 @@
 from util.imports import *
 
+# Trainer dataset object
 class TrainerDataset(torch.utils.data.Dataset):
     def __init__(self, dataset: Dataset, tokenizer):
         self.reviews = dataset['review']
