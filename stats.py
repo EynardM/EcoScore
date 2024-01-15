@@ -25,7 +25,7 @@ waste_tokenizer = AutoTokenizer.from_pretrained(WASTE_MODEL_PATH)
 adverse_model = AutoModelForSequenceClassification.from_pretrained(ADVERSE_MODEL_PATH)
 adverse_tokenizer = AutoTokenizer.from_pretrained(ADVERSE_MODEL_PATH)
 
-# Storing models and tokenizers
+# Storing models and tokenizers in dictionaries
 models = {
     "organic": organic_model,
     "climate": climate_model,
@@ -46,6 +46,7 @@ tokenizers = {
     "adverse": adverse_tokenizer,
 }
 
+# Function to get sentiment rates for a given review across different categories
 def get_review_rates(review):
     rates = []
     for category, model in models.items():
@@ -54,9 +55,10 @@ def get_review_rates(review):
         outputs = model(**inputs)
         logits = outputs.logits
         predicted_class = logits.argmax().item()
-        rates.append(predicted_class-1)
+        rates.append(predicted_class - 1)
     return rates
 
+# Function to get sentiment rates for all reviews of a restaurant
 def get_restaurant_ratings(restaurant_reviews):
     reviews_rates = []
     for review in restaurant_reviews:
@@ -74,6 +76,7 @@ def get_restaurant_ratings(restaurant_reviews):
         restaurant_ratings.append(category_rating)
     return restaurant_ratings 
 
+# Function to calculate the global rate for a restaurant
 def get_restaurant_global_rate(restaurant_ratings):
     valid_ratings = [rating for rating in restaurant_ratings if rating != -1]
     if not valid_ratings:
@@ -82,6 +85,7 @@ def get_restaurant_global_rate(restaurant_ratings):
         average_rating = sum(valid_ratings) / len(valid_ratings)
         return average_rating
     
+# Function to get reviews for all restaurants from CSV files
 def get_restaurants():
     restaurants_reviews = {}
     for filename in os.listdir(RESTAURANTS_DATA_PATH):
@@ -91,10 +95,13 @@ def get_restaurants():
             restaurants_reviews[restaurant_name] = df['review'].tolist()
     return restaurants_reviews
 
+# Main function to execute the script
 def main():
+    # Get reviews for all restaurants
     restaurants_reviews = get_restaurants()
     results = []
 
+    # Iterate through each restaurant and predict ratings
     for restaurant, reviews in restaurants_reviews.items():
         print(f"Getting ratings predictions for restaurant {restaurant}...")
         restaurant_ratings = get_restaurant_ratings(restaurant_reviews=reviews)
@@ -105,17 +112,21 @@ def main():
             'ratings': restaurant_ratings,
             'global_rate': global_rate
         })
-         
+
+    # Save the results to a CSV file
     results_df = pd.DataFrame(results)
     results_df.to_csv('Results/restaurants_predictions.csv', index=False)
     print("Ratings predictions saved!")
 
-    print(f"Getting statistics on restaurants...")
-    results_df = pd.read_csv('restaurants_predictions.csv')
+    # Calculate statistics on restaurant ratings
+    print("Getting statistics on restaurants...")
+    results_df = pd.read_csv('Results/restaurants_predictions.csv')
 
+    # Extract individual ratings from the 'ratings' column
     ratings_array = np.vstack(results_df['ratings'].apply(lambda x: literal_eval(x)))
     ratings_array[ratings_array == -1] = np.nan
 
+    # Calculate mean and standard deviation for each category and global rate
     ratings_mean = np.nanmean(ratings_array, axis=0)
     ratings_std = np.nanstd(ratings_array, axis=0)
 
@@ -124,6 +135,7 @@ def main():
     global_rate_mean = np.nanmean(valid_global_rates)
     global_rate_std = np.nanstd(valid_global_rates)
 
+    # Create a DataFrame for statistics and save to CSV
     stats_df = pd.DataFrame({
         'category': [CATEGORIES[i] for i in range(ratings_mean.size)] + ['global_rate'],
         'mean': np.concatenate([ratings_mean, [global_rate_mean]]),
