@@ -1,0 +1,46 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "review": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rate": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "feature": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "feature": {
+          "dtype": "int8",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "feature": {
+          "dtype": "int8",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
